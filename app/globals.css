@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+@theme {
+  --color-pink-custom: rgb(255, 143, 156);
+}
+
+.header_top__icon_wrapper {
+  @apply bg-gray-200 rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-pink-custom hover:text-white transition-colors duration-200;
+}
+
+.navbar__link:hover {
+  color: #ff8f9c;
+  transition: all 0.4s;
+}
+
+/* gonna make a div at thebottom of the navbar elements when hovered */
+.navbar__link::after {
+  position: absolute;
+  content: "";
+  background-color: #ff8f9c;
+  height: 3px;
+  width: 100%;
+  bottom: -5px;
+  left: 0;
+  scale: 0;
+  transform-origin: left;
+  transition: all 0.4s;
+}
+
+.navbar__link:hover::after {
+  scale: 1;
+}
