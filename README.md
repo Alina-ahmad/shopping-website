@@ -2,7 +2,9 @@
 
 A full-stack e-commerce web app built as a personal portfolio project to learn and practice production-level patterns in authentication, state management, and full-stack architecture with Next.js.
 
-**Live site:** [shopping-website-eight-xi.vercel.app]
+Live site: [shopping-website-eight-xi.vercel.app]
+
+video:
 [![Watch the demo](https://img.youtube.com/vi/eLg7qiOBKnA/maxresdefault.jpg)](https://youtu.be/eLg7qiOBKnA)
 
 ---
